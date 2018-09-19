@@ -333,7 +333,7 @@ def prepare_attention(attention_states,
   # Prepare attention keys / values from attention_states
   with variable_scope.variable_scope("attention_keys", reuse=reuse) as scope:
     attention_keys = layers.linear(
-        attention_states, num_units, biases_initializer=None, scope=scope)
+      attention_states, num_units, biases_initializer=None, scope=scope)
   attention_values = attention_states
 
   # Attention score function
