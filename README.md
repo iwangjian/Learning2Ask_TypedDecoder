@@ -1,6 +1,11 @@
 # Learning2Ask_TypedDecoder
 ---
-The code for the paper [Learning to Ask Questions in Open-domain Conversational Systems with Typed Decoders](https://arxiv.org/pdf/1805.04843.pdf) on ACL2018
+This is the bug fixed version of the code for the paper [Learning to Ask Questions in Open-domain Conversational Systems with Typed Decoders](https://arxiv.org/pdf/1805.04843.pdf) on ACL2018
+
+### Bug Fixes and Other Changes
+* Removed the module ```wordseg_python``` that causes bugs.
+* Changed style of some codes to make them more readable.
+
 
 Cite this paper:
 ```
