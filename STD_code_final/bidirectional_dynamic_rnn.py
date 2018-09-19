@@ -4,6 +4,7 @@
 import tensorflow as tf
 import numpy as np
 
+
 def multi_bidirectional_rnn(cell, num_units, num_layers, inputs, seq_lengths):
     """
     paramaters:
