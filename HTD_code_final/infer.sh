@@ -1,1 +1,1 @@
-CUDA_VISIBLE_DEVICES=0 python main.py --is_train False --inference_path weibo_pair_test_Q.post --check_version 200000 --batch_size 1 --keywords_per_sentence 20
+CUDA_VISIBLE_DEVICES=4 python2 main.py --is_train False --check_version 12000 --batch_size 1 --keywords_per_sentence 20 --inference_path ./data/weibo_pair_test_Q.post

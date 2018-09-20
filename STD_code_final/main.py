@@ -26,7 +26,7 @@ tf.app.flags.DEFINE_integer("check_version", 0, "The version for continuing trai
 tf.app.flags.DEFINE_boolean("log_parameters", True, "Set to True to show the parameters")
 tf.app.flags.DEFINE_string("inference_path", "", "Set filename of inference, default isscreen")
 tf.app.flags.DEFINE_string("PMI_path", "./PMI", "PMI director.") 
-tf.app.flags.DEFINE_integer("keywords_per_sentence", 5, "How many keywords will be included") #for STD we don't need this flag
+tf.app.flags.DEFINE_integer("keywords_per_sentence", 20, "How many keywords will be included") #for STD we don't need this flag
 tf.app.flags.DEFINE_boolean("question_data", True, "Determine whether to use question data.") #for STD we always use question word and didn't apply pretrain, please always set to True
 FLAGS = tf.app.flags.FLAGS
 
