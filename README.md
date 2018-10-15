@@ -1,10 +1,12 @@
-# Learning2Ask_TypedDecoder
+﻿# Learning2Ask_TypedDecoder
 ---
 This is the bug fixed version of the code for the paper [Learning to Ask Questions in Open-domain Conversational Systems with Typed Decoders](https://arxiv.org/pdf/1805.04843.pdf) on ACL2018
 
 ### Bug Fixes and Other Changes
 * Removed the module ```wordseg_python``` that causes bugs.
 * Changed style of some codes to make them more readable.
+* Dataset used in the paper can be downloaded from http://coai.cs.tsinghua.edu.cn/file/QGdata.zip.
+* Weibo word vectors used in the codes can be downloaded from https://github.com/Embedding/Chinese-Word-Vectors.
 
 
 Cite this paper:
